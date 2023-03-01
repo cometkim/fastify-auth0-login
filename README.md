@@ -19,7 +19,7 @@ For example to set for `https://localhost:3000`,
 
 Then configure your Fastify app with this plugin and `@fastify/cookie` like this:
 
-```
+```ts
 import FastifyCookie from '@fastifyCookie';
 import FastifyAuth0Login from 'fastify-auth0-login';
 
