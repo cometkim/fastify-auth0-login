@@ -15,7 +15,7 @@ Confirm the `Domain`, `Client ID`, and `Client Secret` then set you application'
 
 For example to set for `https://localhost:3000`,
 
-![Example Callback URLs](https://user-images.githubusercontent.com/9696352/222122244-4f415985-c182-4953-8a82-e89885ff2213.png)
+![Example Callback URLs](https://user-images.githubusercontent.com/9696352/222125267-76e435f6-6874-48fa-872e-99fbcf87148f.png)
 
 Then configure your Fastify app with this plugin and `@fastify/cookie` like this:
 
