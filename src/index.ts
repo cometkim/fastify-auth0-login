@@ -248,9 +248,6 @@ export default fp(fastifyAuth0LoginPlugin, {
   dependencies: [
     '@fastify/cookie',
   ],
-  decorators: {
-    request: ['currentSession'],
-  },
 });
 
 declare module 'fastify' {
