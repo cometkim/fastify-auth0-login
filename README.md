@@ -46,7 +46,7 @@ Now you can initiate auth flow by GET `/auth/request`.
 
 ```html
 <!-- This will redirect user to the Auth0 application's auth URL -->
-<a href="/auth/request">Login with Auth0</a>
+<a href="/auth">Login with Auth0</a>
 ```
 
 ## LICENSE
