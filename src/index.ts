@@ -218,7 +218,9 @@ const fastifyAuth0LoginPlugin: FastifyPluginCallback<FastifyAuth0LoginOptions> =
         return reply.redirect(401, loginPath);
       }
 
-      reply.setCookie(cookieName, session.id, { path: '/', expires: new Date(decoded.exp) });
+      const SECOND = 1000;
+
+      reply.setCookie(cookieName, session.id, { path: '/', expires: new Date(decoded.exp * SECOND) });
 
       if (query.redirect_to) {
         reply.redirect(query.redirect_to);
