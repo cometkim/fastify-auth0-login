@@ -45,6 +45,7 @@ app.register(FastifyAuth0Login, {
 Now you can initiate auth flow by GET `/auth/request`.
 
 ```html
+<!-- In your /login page HTML -->
 <!-- This will redirect user to the Auth0 application's auth URL -->
 <a href="/auth">Login with Auth0</a>
 ```
