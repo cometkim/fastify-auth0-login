@@ -154,8 +154,10 @@ const fastifyAuth0LoginPlugin: FastifyPluginCallback<FastifyAuth0LoginOptions> =
       },
     },
     async handler(req, reply) {
+      const protocol = req.headers['x-forwarded-proto'] || req.protocol
       const query = req.query as { redirect_to?: string };
-      const self = new URL(authRequestPath, `${req.protocol}://${req.hostname}`);
+
+      const self = new URL(authRequestPath, `${protocol}://${req.hostname}`);
     
       const redirectUrl = new URL(authCallbackPath, self);
       if (query.redirect_to) {
@@ -187,8 +189,10 @@ const fastifyAuth0LoginPlugin: FastifyPluginCallback<FastifyAuth0LoginOptions> =
       },
     },
     async handler(req, reply) {
+      const protocol = req.headers['x-forwarded-proto'] || req.protocol
       const query = req.query as { code: string; redirect_to?: string };
-      const self = new URL(authCallbackPath, `${req.protocol}://${req.hostname}`);
+
+      const self = new URL(authCallbackPath, `${protocol}://${req.hostname}`);
 
       const response = await fetch(tokenURL, {
         method: 'POST',
