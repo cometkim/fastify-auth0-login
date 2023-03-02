@@ -72,7 +72,7 @@ export type FastifyAuth0LoginOptions = {
   /**
    * A URL path to start the Authorization Code Flow via Auth0
    *
-   * @default "/auth/request"
+   * @default "/auth"
    */
   authRequestPath?: string,
 
@@ -125,7 +125,7 @@ const fastifyAuth0LoginPlugin: FastifyPluginCallback<FastifyAuth0LoginOptions> =
     fetch,
     userPath = '/',
     loginPath = '/login',
-    authRequestPath = '/auth/request',
+    authRequestPath = '/auth',
     authCallbackPath = '/auth/callback',
     cookieName = 'sessionId',
     verifySession,
