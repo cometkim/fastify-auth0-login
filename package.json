@@ -1,6 +1,6 @@
 {
   "name": "fastify-auth0-login",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fastify plugin easily adding login feature via Auth0's Authorization Code Flow",
   "author": {
     "name": "Hyeseong Kim",
