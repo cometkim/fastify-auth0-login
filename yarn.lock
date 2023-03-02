@@ -706,6 +706,7 @@ __metadata:
     typescript: ^4.9.5
   peerDependencies:
     "@fastify/cookie": ^8.0.0
+    fastify: ^4.0.0
   languageName: unknown
   linkType: soft
 
