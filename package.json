@@ -50,5 +50,5 @@
     "nanobundle": "^1.5.0",
     "typescript": "^4.9.5"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.5.0"
 }
