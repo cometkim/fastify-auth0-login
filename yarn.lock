@@ -660,13 +660,13 @@ __metadata:
   linkType: hard
 
 "fast-jwt@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "fast-jwt@npm:2.2.0"
+  version: 2.2.1
+  resolution: "fast-jwt@npm:2.2.1"
   dependencies:
     asn1.js: ^5.4.1
     ecdsa-sig-formatter: ^1.0.11
     mnemonist: ^0.39.5
-  checksum: 95c53e0d15b20b4f946e2ff565ae75207278521c9ae8b24100b064902bd6c71e022c8067f7d554dcb1f06292b2b14336075af854292779ac583d87cc332b5ad4
+  checksum: 1eb36235c5d7b9790a9942291f69c38c28eef187297bf2be20ed8edd13a2cb6de59536d2866380939ba2915f67fb78ebfb1f95ba62336c4c0d4e4dc688b9a28e
   languageName: node
   linkType: hard
 
