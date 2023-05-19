@@ -659,14 +659,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-jwt@npm:^2.2.0":
-  version: 2.2.3
-  resolution: "fast-jwt@npm:2.2.3"
+"fast-jwt@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "fast-jwt@npm:3.0.0"
   dependencies:
     asn1.js: ^5.4.1
     ecdsa-sig-formatter: ^1.0.11
     mnemonist: ^0.39.5
-  checksum: f1ca20524b5fe937712e7631f7338c99378b471173303f0fa85d7b2387a56444853520465006631bf13cab735570bb1c78e8543a157b2d4c1bc0f804f8ea3aa2
+  checksum: cafb73d87cd3dd76ab4870942504974f503925ba96e7f932da14bd1a769389709694f312148140f56fede137ad28a07754d8d5eedbc783ac7ed0da096c48a3b5
   languageName: node
   linkType: hard
 
@@ -699,7 +699,7 @@ __metadata:
   dependencies:
     "@fastify/cookie": ^8.3.0
     "@types/node": ^18.14.2
-    fast-jwt: ^2.2.0
+    fast-jwt: ^3.0.0
     fastify: ^4.13.0
     fastify-plugin: ^4.5.0
     nanobundle: ^1.5.0
