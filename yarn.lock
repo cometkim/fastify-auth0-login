@@ -244,6 +244,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lukeed/ms@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@lukeed/ms@npm:2.0.1"
+  checksum: c7b46933bf7bad3e024dcbbe2ad6201392b4ed2a05a717c0ef7e96a03fb885d44f08b4b749c392cc51c2736a6a45a08c77f1863ace1c072928fbfd9908a13db3
+  languageName: node
+  linkType: hard
+
 "@types/minimist@npm:^1.2.2":
   version: 1.2.2
   resolution: "@types/minimist@npm:1.2.2"
@@ -660,13 +667,14 @@ __metadata:
   linkType: hard
 
 "fast-jwt@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "fast-jwt@npm:3.1.1"
+  version: 3.2.0
+  resolution: "fast-jwt@npm:3.2.0"
   dependencies:
+    "@lukeed/ms": ^2.0.1
     asn1.js: ^5.4.1
     ecdsa-sig-formatter: ^1.0.11
     mnemonist: ^0.39.5
-  checksum: c401a39105ec2a81abf8565316c625310410a3b13dcc4286b6dd921f45319414f45fdc52df6b8a27460afddd377b038cb41b12ee42cd93d46158b396723ac6eb
+  checksum: 908c3b660e88836610672096f635e0d3b14f2aa54d84528b3a1a67344fa981b68f7567a23d56cf915702b0d07293855e165e9c4047492a767e1e95660d163545
   languageName: node
   linkType: hard
 
