@@ -2,6 +2,9 @@
 
 A Fastify plugin for easily adding login feature via Auth0's [Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow).
 
+> [!NOTE]
+> This demonstrates bare minimum implementation for session-based authentication with a external provider. Since its lack of capabilities, I'd like to recomment not to use for your production. Instead, consider using some other frameworks such as [Auth.js](https://authjs.dev/) or [account-js](https://www.accountsjs.com/).
+
 ## Prerequisites
 
 - Fasyify v4.x+
