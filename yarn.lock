@@ -211,13 +211,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/cookie@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "@fastify/cookie@npm:8.3.0"
+"@fastify/cookie@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@fastify/cookie@npm:9.0.0"
   dependencies:
     cookie: ^0.5.0
     fastify-plugin: ^4.0.0
-  checksum: d5dfb5c85d4ae02188aad63c8cf055d3b904287bc2750964ee0b8589c5b5ae32850e8fc9456a8830e9f4e9f24d5059e54dac084835d6ef4cbba7fa4b9c4673b3
+  checksum: d187e0abfb71cf9913f303aa3301dbf42cbdbeb525cc2ab64fab884c21bff77823a114526429b6391543340f47c51e3078b0b2c943d1232af69f05f8df573afa
   languageName: node
   linkType: hard
 
@@ -697,7 +697,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fastify-auth0-login@workspace:."
   dependencies:
-    "@fastify/cookie": ^8.3.0
+    "@fastify/cookie": ^9.0.0
     "@types/node": ^18.14.2
     fast-jwt: ^3.0.0
     fastify: ^4.13.0
@@ -705,7 +705,7 @@ __metadata:
     nanobundle: ^1.5.0
     typescript: ^5.0.0
   peerDependencies:
-    "@fastify/cookie": ^8.0.0
+    "@fastify/cookie": ^8.0.0 || ^9.0.0
     fastify: ^4.0.0
   languageName: unknown
   linkType: soft
