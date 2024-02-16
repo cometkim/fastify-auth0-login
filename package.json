@@ -40,7 +40,7 @@
     "fastify": "^4.0.0"
   },
   "dependencies": {
-    "fast-jwt": "^3.0.0",
+    "fast-jwt": "^4.0.0",
     "fastify-plugin": "^4.5.0"
   },
   "devDependencies": {
